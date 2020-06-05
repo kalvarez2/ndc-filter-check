@@ -9,6 +9,7 @@ public class SuspectFinder {
 		// TODO Auto-generated method stub
 		List<Suspect> suspects =  new ArrayList<>();
 		suspects.add(new Suspect("AC","YQB" , "YUL"));
+		suspects.add(new Suspect("AC","CLT" , "IAD"));
 		return suspects;
 	}
 
