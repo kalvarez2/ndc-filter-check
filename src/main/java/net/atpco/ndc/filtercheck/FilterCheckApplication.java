@@ -28,7 +28,6 @@ public class FilterCheckApplication implements CommandLineRunner {
 			String numberOfDays = args[0];
 			final int n = tryParse(numberOfDays);
 			if (n > 0) {
-				SuspectFinder suspectFinder = new SuspectFinder();
 				List<Suspect> suspects = suspectFinder.findSuspects();
 				boolean foundOne = false;
 				System.out.println("Found flights for:");
